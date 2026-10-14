@@ -1,0 +1,105 @@
+{
+  "userName": "Dilshan",
+  "timezone": "Asia/Colombo",
+  "privacyAndSafety": {
+    "blockAllPersonalDirectMessages": true,
+    "monitoringMode": "WHITELIST_ONLY",
+    "deleteRawMessagesAfterProcessing": true,
+    "stealthModeNoOnlineStatus": true,
+    "neverSendReadReceipts": true
+  },
+  "universityProfile": {
+    "institution": "SLIIT",
+    "year": 3,
+    "semester": 2,
+    "batchGroup": "Weekend 2.2",
+    "batchGroupAliases": [
+      "Weekend 2.2",
+      "WE 2.2",
+      "WE.02.02",
+      "Group 2.2",
+      "Batch 2.2",
+      "WE2.2",
+      "Weekend Group 2.2",
+      "Y3.S2.WE.02.02"
+    ],
+    "specialization": "Data Science",
+    "enrolledModules": [
+      {
+        "code": "MLOM",
+        "name": "Machine Learning and Optimization Methods"
+      },
+      {
+        "code": "IRWA",
+        "name": "Information Retrieval and Web Analytics"
+      },
+      {
+        "code": "PROJECT",
+        "name": "4 Outliers Project"
+      },
+      {
+        "code": "SE3010",
+        "name": "Software Quality Assurance"
+      },
+      {
+        "code": "SE3020",
+        "name": "Distributed Systems"
+      },
+      {
+        "code": "IT3050",
+        "name": "Final Year Project"
+      }
+    ],
+    "ignoreKeywords": [
+      "Year 1",
+      "Year 2",
+      "Y1S1",
+      "Y2S2",
+      "Repeat Exam"
+    ]
+  },
+  "socialPreferences": {
+    "trackMeetups": true,
+    "trackPicnicsAndTrips": true,
+    "defaultEventDurationMinutes": 60,
+    "defaultPicnicDurationMinutes": 240
+  },
+  "monitoredChats": {
+    "mode": "WHITELIST_ONLY",
+    "whitelistedGroupNames": [
+      "MLOM and IRWA 2026",
+      "⁠MLOM and IRWA 2026",
+      "4 Outliers",
+      "SLIIT OCTOMBER 2023 ( UNOFFICIAL GP )",
+      "DSSC volunteer 26/27",
+      "Spiderman Brand new day👍",
+      "Y3S1 Official Notices",
+      "SE3020 Project Group",
+      "Batch Trip 2026",
+      "Uni Friends"
+    ],
+    "whitelistedGroupJids": [
+      "DSSC volunteer 26/27",
+      "Spiderman Brand new day👍",
+      "SLIIT OCTOMBER 2023 ( UNOFFICIAL GP )",
+      "⁠MLOM and IRWA 2026",
+      "MLOM and IRWA 2026",
+      "4 Outliers"
+    ],
+    "blacklistedGroupNames": [
+      "Meme Dump",
+      "Buy & Sell"
+    ],
+    "groupSpecificRules": {
+      "MLOM and IRWA 2026": "Enrolled course group for MLOM and IRWA. Filter strictly for the Weekend 2.2 group (aliases: 'Weekend 2.2', 'WE 2.2', 'Group 2.2', 'WE.02.02', 'Batch 2.2'). Extract lecture slots, lab sessions, and viva schedules matching Weekend 2.2 or all-batch notices. IGNORE all entries for Weekday groups or other Weekend subgroups (e.g., Weekend 1.1, Weekend 2.1).",
+      "⁠MLOM and IRWA 2026": "Enrolled course group for MLOM and IRWA. Filter strictly for the Weekend 2.2 group (aliases: 'Weekend 2.2', 'WE 2.2', 'Group 2.2', 'WE.02.02', 'Batch 2.2'). Extract lecture slots, lab sessions, and viva schedules matching Weekend 2.2 or all-batch notices. IGNORE all entries for Weekday groups or other Weekend subgroups (e.g., Weekend 1.1, Weekend 2.1).",
+      "4 Outliers": "User's academic project group ('4 Outliers'). Extract all project meetings, voice/video sync calls, task deadlines, presentation rehearsals, and milestone submission dates agreed upon by group members.",
+      "SLIIT OCTOMBER 2023 ( UNOFFICIAL GP )": "SLIIT October 2023 intake batch community group. Extract academic notices, exam dates, registration deadlines, and university announcements relevant to October 2023 / Year 3."
+    }
+  },
+  "notifications": {
+    "dailyBriefingTime": "07:30",
+    "alertOnEveryAddedEvent": true,
+    "alertOnConflictsImmediately": true
+  }
+}
