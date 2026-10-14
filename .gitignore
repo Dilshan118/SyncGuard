@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+
+# Data directory contents (keep data directory with .gitkeep)
+data/*
+!data/.gitkeep
+!data/auth_info_baileys/.gitkeep

@@ -1,0 +1,43 @@
+{
+  "name": "syncguard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "auth:google": "tsx src/calendar/authGoogle.ts",
+    "auth:whatsapp:clean": "tsx src/whatsapp/cleanAuth.ts",
+    "test:db": "tsx src/test-db.ts",
+    "test:privacy": "tsx src/test-privacy.ts",
+    "test:calendar": "tsx src/test-calendar.ts",
+    "test:ai": "tsx src/test-ai.ts",
+    "test:pipeline": "tsx src/test-pipeline.ts",
+    "test": "npm run test:db && npm run test:privacy && npm run test:calendar && npm run test:ai && npm run test:pipeline",
+    "postinstall": "node scripts/patch-whatsapp-rust-bridge.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@google/genai": "^2.29.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.7",
+    "googleapis": "^185.0.0",
+    "node-cron": "^4.6.0",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.5",
+    "@types/node-cron": "^3.0.11",
+    "@types/qrcode-terminal": "^0.12.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
